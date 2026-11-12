@@ -1,0 +1,235 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Portfolio d'Ange</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&family=Yellowtail&family=Playfair+Display:ital,wght@0,500;0,600;1,800;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;1,300&family=Nunito:wght@300;400;600&family=JetBrains+Mono:wght@300;400&display=swap">
+<link rel="stylesheet" href="style.css">
+</head><body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="etincelle" viewBox="-50 -50 100 100">
+    <path d="M0 -48 C6 -10 10 -6 48 0 C10 6 6 10 0 48 C-6 10 -10 6 -48 0 C-10 -6 -6 -10 0 -48Z" fill="currentColor"/>
+  </symbol>
+</svg>
+
+<div id="fond" aria-hidden="true"></div>
+<div id="blackout" aria-hidden="true"></div>
+<div id="intro" role="dialog" aria-label="Bienvenue">
+  <div class="sp-left">
+    <span class="lab tl">Génie logiciel</span>
+    <span class="lab bl">Portfolio</span>
+    <span class="lab l1">Ange Takongmo</span>
+    <span class="lab l2">Python</span>
+    <img class="sq q1" src="images/intro-1.webp" alt="" width="220" height="220">
+    <img class="sq q2" src="images/intro-2.webp" alt="" width="220" height="220">
+    <img class="sq q3" src="images/intro-3.webp" alt="" width="220" height="220">
+  </div>
+  <div class="sp-right">
+    <img class="demi" src="images/intro-demi.webp" alt="" width="760" height="889">
+    <span class="lab tr">2026</span>
+    <span class="lab br">Page 01</span>
+    <span class="lab r1">Développement web</span>
+    <span class="lab r2">Cybersécurité</span>
+    <svg class="st a" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 4l13 33 35 2-27 22 9 35-30-19-30 19 9-35L2 39l35-2z" fill="currentColor"/></svg><svg class="st b" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 4l13 33 35 2-27 22 9 35-30-19-30 19 9-35L2 39l35-2z" fill="currentColor"/></svg><svg class="st c" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 4l13 33 35 2-27 22 9 35-30-19-30 19 9-35L2 39l35-2z" fill="currentColor"/></svg><svg class="st d" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 4l13 33 35 2-27 22 9 35-30-19-30 19 9-35L2 39l35-2z" fill="currentColor"/></svg>
+  </div>
+  <button type="button" id="start">Start</button>
+  <h1 class="sp-word" aria-label="Portfolio"><span class="fill">Portfolio</span><span class="line" aria-hidden="true">Portfolio</span></h1>
+</div>
+<div class="wrap">
+
+  <!-- 1. Accueil -->
+  <header class="hero2" id="accueil">
+    <div class="info">
+      <nav class="pills" aria-label="Sections">
+        <a class="pill" href="#apropos">À propos</a>
+        <a class="pill" href="#competences">Compétences</a>
+        <a class="pill" href="#projets">Projets</a>
+        <a class="pill" href="#formation">Formation</a>
+        <a class="pill" href="#contact">Contact</a>
+      </nav>
+      <h1>Ange <em>Takongmo</em></h1>
+      <p class="sub">Génie logiciel</p>
+      <p class="pitch">Je conçois des solutions numériques simples, utiles et sécurisées. Curieuse et rigoureuse, j'aime transformer une idée en programme qui fonctionne.</p>
+      <div class="cta"><a class="btn btn-main" href="#contact">Me contacter</a><a class="btn btn-ghost" href="#projets">Voir mes projets</a></div>
+      <div class="facts"><span><i></i>Ottawa, Canada</span><span><i></i>Français · Anglais</span><span><i></i>Python · Web · Cybersécurité</span></div>
+    </div>
+    <div class="visual">
+      <canvas id="globe" aria-hidden="true"></canvas>
+      <div class="spark tw" style="width:40px;height:40px;top:6%;right:8%;color:var(--orange)" aria-hidden="true"><svg><use href="#etincelle"/></svg></div>
+      <div class="photo has-img"><img src="images/portrait-ange.webp" alt="Portrait d'Ange Takongmo" width="720" height="720"></div>
+    </div>
+  </header>
+
+  <!-- 2. À propos -->
+  <section id="apropos" class="ap" aria-labelledby="h-apropos">
+    <div class="ap-intro">
+      <span class="tag">À propos</span>
+      <h2 id="h-apropos">Qui suis-je</h2>
+      <p class="hello">Bonjour, je suis Ange.</p>
+      <p class="ap-text">Étudiante à l'Université d'Ottawa, j'aime comprendre comment les choses fonctionnent et créer des outils simples qui rendent service.</p>
+    </div>
+    <div class="ap-card c-int"><div class="ap-head"><span class="ap-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></svg></span><h3>Mes intérêts</h3></div><div class="ap-body"><p>La cybersécurité, le développement web et la résolution de problèmes par le code.</p></div></div>
+    <div class="ap-card c-amb"><div class="ap-head"><span class="ap-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><h3>Mes ambitions</h3></div><div class="ap-body"><p>Décrocher un stage coop en développement logiciel, puis travailler sur des systèmes qui protègent les données des gens.</p></div></div>
+    <div class="ap-card c-val"><div class="ap-head"><span class="ap-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span><h3>Mes valeurs</h3></div><div class="ap-body"><p>Rigueur, curiosité, esprit d'équipe et engagement, comme bénévole au salon de recrutement de la Faculté de génie.</p></div></div>
+  </section>
+
+  <!-- 3. Compétences -->
+  <section id="competences" aria-labelledby="h-comp">
+    <div class="spark tw" style="width:40px;height:40px;right:4%;top:0;color:var(--orange)" aria-hidden="true"><svg><use href="#etincelle"/></svg></div>
+    <div class="head"><span class="tag">Compétences</span><h2 id="h-comp">Ce que je sais faire</h2></div>
+    <div class="skills">
+      <div class="skill"><span class="ic">P</span><span><b>Python</b><small>programmes et exercices</small></span></div>
+      <div class="skill"><span class="ic">H/C</span><span><b>HTML et CSS</b><small>pages web adaptées au mobile</small></span></div>
+      <div class="skill"><span class="ic">G</span><span><b>Git et GitHub</b><small>versions et dépôts</small></span></div>
+      <div class="skill"><span class="ic">VS</span><span><b>Visual Studio Code</b><small>écrire et déboguer</small></span></div>
+      <div class="skill"><span class="ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3.5 19c0-3.2 2.5-5.3 5.5-5.3s5.5 2.1 5.5 5.3"/><circle cx="17" cy="9" r="2.3"/><path d="M15.6 14c2.6.2 4.9 1.8 4.9 4.8"/></svg></span><span><b>Communication et travail d'équipe</b><small>projets d'équipe, bénévolat</small></span></div>
+    </div>
+    <div class="win term">
+      <div class="titlebar"><span>moyenne.py</span></div>
+<pre class="code"><span class="c"># calcule la moyenne d'une liste de notes</span>
+<span class="k">def</span> moyenne(notes):
+    <span class="k">return</span> sum(notes) / len(notes)
+
+print(<span class="s">"Moyenne :"</span>, moyenne([<span class="s">78</span>, <span class="s">85</span>, <span class="s">92</span>]))</pre>
+    </div>
+  </section>
+
+  <!-- 4. Projets -->
+  <section id="projets" class="pj" aria-labelledby="h-proj">
+    <div class="head"><span class="tag">Projets</span><h2 id="h-proj">Mes réalisations</h2></div>
+    <div class="fr-row">
+      <div class="fr-wrap"><article class="bx">
+        <div class="bx-head"><span class="pc-k">01 — Exercices Python</span><h3>Programmes Python</h3></div>
+        <div class="bx-img code-shot" role="img" aria-label="Aperçu d'un programme Python">
+          <div class="cs-bar"><span>analyse_notes.py</span></div>
+<pre><span class="k">def</span> <span class="f">analyser</span>(notes):
+    moy = sum(notes) / len(notes)
+    sup = [n <span class="k">for</span> n <span class="k">in</span> notes <span class="k">if</span> n &gt;= moy]
+    <span class="k">return</span> round(moy, <span class="n">1</span>), max(notes), sup
+
+notes = [<span class="n">72</span>, <span class="n">88</span>, <span class="n">95</span>, <span class="n">64</span>, <span class="n">81</span>]
+moy, top, sup = analyser(notes)
+print(<span class="s">f"Moyenne : {moy} | Max : {top}"</span>)
+print(<span class="s">"Au-dessus :"</span>, sup)
+<span class="o"># Moyenne : 80.0 | Max : 95</span>
+<span class="o"># Au-dessus : [88, 95, 81]</span></pre>
+        </div>
+        <div class="bx-body"><p>Programmes qui traitent des listes et calculent des résultats à partir de la saisie de l'utilisateur.</p></div>
+      </article></div>
+      <div class="fr-wrap"><article class="bx">
+        <div class="bx-head"><span class="pc-k">02 — Projet personnel</span><h3>Mon site portfolio</h3></div>
+        <div class="bx-img"><img src="images/apercu-site.webp" alt="Page d'accueil de mon portfolio" width="800" height="475"></div>
+        <div class="bx-body"><p>Ce site, conçu en HTML, CSS et JavaScript, avec une ouverture animée et une mise en page adaptée aux téléphones.</p></div>
+      </article></div>
+    </div>
+  </section>
+
+  <!-- 5. Formation -->
+  <section id="formation" aria-labelledby="h-form">
+    <div class="head"><span class="tag">Formation</span><h2 id="h-form">Ma formation</h2></div>
+    <div class="edu">
+      <div class="card"><span class="when">2026 – aujourd'hui</span><div><h3>Baccalauréat en sciences appliquées, génie logiciel</h3><p>Université d'Ottawa, Ottawa (Ontario)</p></div></div>
+      <div class="card"><span class="when">2025</span><div><h3>Admission sur concours</h3><p>Institut universitaire de technologie (IUT) de Bandjoun, Cameroun</p></div></div>
+      <div class="card"><span class="when">2025</span><div><h3>Baccalauréat (diplôme d'études secondaires)</h3><p>Collège Saint-Thomas d'Aquin, Bafoussam, Cameroun</p></div></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact" aria-labelledby="h-contact">
+    <div class="orb o3" aria-hidden="true"></div>
+    <div class="orb o4" aria-hidden="true"></div>
+    <h2 id="h-contact">On se connecte<span>?</span></h2>
+    <p>Je cherche un stage coop ou un emploi étudiant en développement logiciel.</p>
+    <div class="links">
+      <div class="lk"><span class="lk-ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></svg></span><span class="lk-t"><small>Courriel</small><a href="mailto:atako066@uottawa.ca">atako066@uottawa.ca</a></span><button type="button" class="copy" data-copy="atako066@uottawa.ca">Copier</button></div>
+      <a class="lk" href="https://github.com/Intellicode-cyber" target="_blank" rel="noopener"><span class="lk-ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/></svg></span><span class="lk-t"><small>GitHub</small><b>Intellicode-cyber</b></span><span class="lk-go">↗</span></a>
+      <a class="lk" href="https://www.linkedin.com/in/ange-t-b59644442" target="_blank" rel="noopener"><span class="lk-ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v6M8 7.5v.01M12 16v-3.5a2.5 2.5 0 0 1 5 0V16M12 10v6"/></svg></span><span class="lk-t"><small>LinkedIn</small><b>Ange Takongmo</b></span><span class="lk-go">↗</span></a>
+      <div class="lk"><span class="lk-ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><span class="lk-t"><small>Ville</small><b>Ottawa, Ontario</b></span></div>
+    </div>
+  </section>
+
+  <footer>© 2026 Ange Takongmo · conçu avec HTML et CSS</footer>
+</div>
+
+<script>
+(function(){
+  var c=document.getElementById('globe'); if(!c||!c.getContext) return;
+  var ctx=c.getContext('2d'), a=0, dpr=Math.min(window.devicePixelRatio||1,2);
+  var still=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function size(){var r=c.getBoundingClientRect(); c.width=r.width*dpr; c.height=r.height*dpr;}
+  function draw(){
+    var w=c.width,h=c.height,cx=w/2,cy=h/2,R=Math.min(w,h)*0.42;
+    ctx.clearRect(0,0,w,h);
+    var g=ctx.createRadialGradient(cx,cy,R*0.1,cx,cy,R*1.1);
+    g.addColorStop(0,'rgba(169,140,240,0.28)'); g.addColorStop(1,'rgba(169,140,240,0)');
+    ctx.fillStyle=g; ctx.beginPath(); ctx.arc(cx,cy,R*1.1,0,Math.PI*2); ctx.fill();
+    var tilt=0.38, ct=Math.cos(tilt), st=Math.sin(tilt);
+    function P(lat,lon){var x=Math.cos(lat)*Math.sin(lon+a),y=Math.sin(lat),z=Math.cos(lat)*Math.cos(lon+a);
+      var y2=y*ct-z*st,z2=y*st+z*ct; return [cx+x*R,cy-y2*R,z2];}
+    ctx.lineWidth=1.1*dpr;
+    for(var i=-5;i<=5;i++){var lat=i*Math.PI/12; ctx.beginPath();
+      for(var j=0;j<=72;j++){var q=P(lat,j*Math.PI/36); j?ctx.lineTo(q[0],q[1]):ctx.moveTo(q[0],q[1]);}
+      ctx.strokeStyle='rgba(108,79,209,0.28)'; ctx.stroke();}
+    for(var k=0;k<12;k++){var lon=k*Math.PI/6; ctx.beginPath();
+      for(var m=0;m<=48;m++){var q2=P(-Math.PI/2+m*Math.PI/48,lon); m?ctx.lineTo(q2[0],q2[1]):ctx.moveTo(q2[0],q2[1]);}
+      ctx.strokeStyle='rgba(108,79,209,0.22)'; ctx.stroke();}
+    var nodes=[[0.5,0.3,'#ff8a3d'],[-0.3,1.4,'#2fc4bd'],[0.9,2.6,'#ff8a3d'],[-0.7,3.9,'#6c4fd1'],[0.2,5.0,'#2fc4bd']];
+    nodes.forEach(function(n){var q=P(n[0],n[1]); if(q[2]<-0.1) return;
+      ctx.fillStyle=n[2]; ctx.beginPath(); ctx.arc(q[0],q[1],(3+2*q[2])*dpr,0,Math.PI*2); ctx.fill();});
+  }
+  function loop(){a+=0.0035; draw(); requestAnimationFrame(loop);}
+  size(); draw(); window.addEventListener('resize',function(){size();draw();});
+  if(!still) requestAnimationFrame(loop);
+})();
+</script>
+
+<script>
+(function(){
+  var intro=document.getElementById('intro'), black=document.getElementById('blackout'); if(!intro) return;
+  var still=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches, done=false;
+  function finish(){ if(done) return; done=true; intro.classList.add('done'); black.classList.add('done'); document.body.classList.remove('intro-on'); }
+  if(still){ finish(); return; }
+  document.body.classList.add('intro-on');
+  setTimeout(function(){ intro.classList.add('slit'); },300);
+  setTimeout(function(){ intro.classList.add('opened'); },850);
+  setTimeout(function(){ intro.classList.add('write'); },1150);
+  function go(){ intro.classList.add('leaving'); setTimeout(finish,700); }
+  document.getElementById('start').addEventListener('click',go);
+  window.addEventListener('keydown',function(e){ if(!done&&(e.key==='Escape'||e.key==='Enter')) go(); });
+})();
+</script>
+
+<script>
+(function(){
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var els=document.querySelectorAll('.ap-card, .pj .fr-wrap, .skill, .edu .card, .hero2 .facts span');
+  [].forEach.call(els,function(el){
+    el.classList.add('tiltable');
+    function move(e){
+      var r=el.getBoundingClientRect(), x=(e.clientX-r.left)/r.width, y=(e.clientY-r.top)/r.height;
+      el.classList.add('is-tilting');
+      el.style.setProperty('--ty',((x-.5)*14)+'deg');
+      el.style.setProperty('--tx',((.5-y)*12)+'deg');
+      el.style.setProperty('--lift','-6px');
+      el.style.setProperty('--gx',(x*100)+'%'); el.style.setProperty('--gy',(y*100)+'%');
+    }
+    function reset(){ el.classList.remove('is-tilting'); ['--tx','--ty','--lift'].forEach(function(k){el.style.removeProperty(k);}); }
+    el.addEventListener('pointermove',move);
+    el.addEventListener('pointerleave',reset);
+    el.addEventListener('pointercancel',reset);
+    el.addEventListener('pointerup',function(e){ if(e.pointerType!=='mouse') reset(); });
+  });
+})();
+</script>
+
+<script>
+document.querySelectorAll('.copy').forEach(function(b){
+  b.addEventListener('click',function(){
+    var t=b.getAttribute('data-copy');
+    function ok(){ b.textContent='Copié'; setTimeout(function(){b.textContent='Copier';},1600); }
+    try{ navigator.clipboard.writeText(t).then(ok,function(){ var r=document.createRange(); r.selectNodeContents(b.previousElementSibling.querySelector('a')); var sel=getSelection(); sel.removeAllRanges(); sel.addRange(r); }); }
+    catch(e){}
+  });
+});
+</script>
+
+</body></html>
