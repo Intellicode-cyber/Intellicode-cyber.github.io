@@ -1605,7 +1605,7 @@ body {
   position: fixed;
   inset: 0px;
   z-index: -1;
-  background: url("images/fond.webp") center center / cover no-repeat rgb(247, 243, 251);
+  background: url("fond.webp") center center / cover no-repeat rgb(247, 243, 251);
 }
 
 #fond::after {
